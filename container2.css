@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+
+}
+:root{
+    --primary-color:#6E38F7;
+    --text-color:#363940;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 312px;
+    padding:60px 150px;
+    display: flex;
+    justify-content: center;
+
+}

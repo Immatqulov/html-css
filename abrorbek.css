@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" sans-serif;
+
+}
+:root{
+    --text-color:#363940
+}
+.fa-bars{
+    color: var(--primary-color);
+    font-size: 25px;
+}
+header{
+    color:#fff;
+    border: 2px solid black;
+
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+li{
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+}
